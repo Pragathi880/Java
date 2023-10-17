@@ -17,7 +17,9 @@ public class Engineering {
 	 public void getElement() {
 		 System.out.println("To Read the elements");
 		 for(int i =0;i<branchName.length;i++) {
-			System.out.println(branchName[i]); 
+			 if(branch Name[i] = null){
+			System.out.println(branchName[i]);
+			 }
 		 }
 	 }
 	 
