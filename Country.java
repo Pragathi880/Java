@@ -17,7 +17,9 @@ public class Country {
 		 public void getElement() {
 			 System.out.println("To Read the elements.........");
 			 for(int i =0;i<countryName.length;i++) {
+				 if(countryName[i] = null){
 				System.out.println(countryName[i]); 
+				 }
 			 }
 		 }
 		 
