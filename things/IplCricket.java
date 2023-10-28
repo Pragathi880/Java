@@ -17,7 +17,9 @@ public class IplCricket {
 	 public void getElement() {
 		 System.out.println("To Read the elements");
 		 for(int i =0;i<teamName.length;i++) {
-			System.out.println(teamName[i]); 
+			 if(teamName[i] = null){
+			System.out.println(teamName[i]);
+			 }
 		 }
 	 }
 	 
